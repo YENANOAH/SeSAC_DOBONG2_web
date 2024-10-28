@@ -1,0 +1,9 @@
+@import url(./import2.css);
+p{
+    background-color: red; 
+    counter-reset: #fff;
+}
+
+h3{background-color: black;
+    color: #fff;
+}

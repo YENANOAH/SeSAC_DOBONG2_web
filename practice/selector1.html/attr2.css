@@ -1,0 +1,38 @@
+.d-block{
+    display: block;
+    background-color: antiquewhite;
+    border: 1px solid black;
+    width: 50ppxx;
+    height: 100px;
+    font: size 13px;
+    
+    /*여백 적용, padding은 내부여백, margin은 외부 여백*/
+    padding: 10px;
+    margin: 10px;
+}
+
+
+
+.d-inline{
+    display: inline;
+    background-color: aquamarine;
+    border: 1px solid blue;
+    /*inline은 가로 세로 적용 안됨*/
+    width: 100px;
+    height: 100px;
+    font-size: 13px;
+
+    padding: 10px;
+    margin: 10px;
+
+
+}
+
+.d-inlineblock{
+    display: linlinblock;
+    background-color: violet;
+    border: 1px solid green;
+
+    padding: 10px;
+    margin: 10px;
+}

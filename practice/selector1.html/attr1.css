@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Kirang+Haerang&display=swap');
+
+body{
+    background-color: rgb(219, 219, 255);
+}
+
+@font-face {
+    font-family: 'CWDangamAsac-Bold';
+    src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_2108@1.1/CWDangamAsac-Bold.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body{
+    font-family: 'CWDangamAsac-Bold';
+}
+
+.font-link{
+    font-family: "Kirang Haerang"; sans-serif;
+}
+
+.font-import{
+    font-family: "Kirang Haerang"; sans-serif;
+}
+
+.noonnu_font{
+    font-family: 'CWDangamAsac-Bold'; serif;
+}
+
+.container{
+    background-color: gold;
+    color: tomato;
+}
+
+.container > .sentences{
+    /* font-weight : 글씨굵기*/
+    /* font-weight : bold, 400*/
+    font-weight: 700;
+
+    /*font-sixe : 글씨 크기 (default 16px)*/
+
+    /*text-align: 정렬*/
+    
+    /*text-decoration : 문자꾸미기 속성*/
+    /*text-decoration : line-through*/
+    /*text-decoration : underline*/
+    /*text-decoration : overline*/
+
+    /*line-height:줄간 간격*/
+    line-height: 1;
+    line-height: 2;
+    line-height: 20px;
+}
+
+.test{
+    width: 100px;
+    height: 100px;
+    background-color: aquamarine;
+    text-align: center;
+    /*글이 한 줄일 땐 세로기준 가운데 정렬로 사용한다*/
+    line-height: 100px;
+}
+
+.container a{
+    color: blue;
+    text-decoration: none;
+}
+
+/*색상지정 방법
+1. 색상이름으로 설정! - red, blue..
+2. rgb(숫자,숫자,숫자)
+  - 0~255 중에 하나의 숫자가 들어감
+  - rgba(): a는 투명도 지정
+3. #NNNNNNN(빨강,)
+  -rgb(0,0,0) : black : #000000
+  -rgb(255,2525,255) : white #ffffff
+*/
