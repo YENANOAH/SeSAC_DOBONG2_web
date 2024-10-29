@@ -4,7 +4,36 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>실습2</title>
-    <link rel="stylesheet" href="./pro3.css">
+    <style>
+       p.lion {
+      background-color: red;
+    }
+
+    ul>.lion {
+      background-color: greenyellow;
+    }
+
+    #tiger {
+      background-color: yellow;
+    }
+
+    .lion {
+      color: sienna;
+    }
+
+    .zoo .lion {
+      font-weight: bold
+    }
+
+    #tiger+li {
+      background-color: skyblue;
+    }
+
+    li.lion~li {
+      background-color: orange;
+    }
+    </style>
+
 </head>
 <body>
         <h1>복합선택자 사용 연습</h1>
@@ -21,5 +50,6 @@
             <li>사육사 진형</li>
           </ul>
           <span class="lion"> 사파리 밖의 사자
+            <p class="lion">야생의 사자</p>
 </body>
 </html>

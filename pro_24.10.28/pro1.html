@@ -5,24 +5,39 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>실습 아래 그림처럼 만들기</title>
     <style>
-        .box{  
-            width: auto;
-            height: 200px;
+        .container{
             background-color: orange;
+            width: auto;
+            height: 300px;
+            display: flex;
+        }
+
+        .box{
+            width: 200px;
+            height: 100px;
+            margin-right: 30px;
         }
 
         .HTML{
-            width: 200px;
-            height: 100px;
             background-color: skyblue;
         }
 
+        .css{
+            background-color: green;
+        }
+
+        .Javascript{
+            background-color: red;
+        }
     </style>
+
 </head>
 <body>
-    <h2>실습 아래 그림처럼 만들기</h2>
-    <span class="HTML">HTML</span>
-    <span class="CSS">css</span>
-    <span class="Javascript">Javascript</span>
+    <h1>실습 아래 그림처럼 만들기</h1>
+    <span class="container">
+        <span class="box HTML">HTML</span>
+        <span class="box css">css</span>
+        <span class="box Javascript">Javascript</span>
+    </span>
 </body>
 </html>
